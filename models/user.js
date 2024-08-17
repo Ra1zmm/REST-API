@@ -15,7 +15,7 @@ const UserSchema = new mongoose.Schema({
             return validator.isEmail(value);
           }
     },
-    addres:{
+    address:{
         type: String,
         required : true
     },
